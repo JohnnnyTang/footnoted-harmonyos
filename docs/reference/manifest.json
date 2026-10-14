@@ -1,0 +1,23 @@
+{
+  "sourceRepository": "https://github.com/JohnnnyTang/footnoted",
+  "sourceCommit": "99f78234c1415e41a57c2e388f256e8f99e98df2",
+  "sourceBranch": "stage/01-foundation",
+  "transferredAt": "2026-10-13",
+  "files": [
+    {
+      "source": "docs/HANDOFF.md",
+      "destination": "docs/reference/HANDOFF.original.md",
+      "sha256": "130d672f89cbc08042c584884734d323269e79483b0386cf29154e00a812740b"
+    },
+    {
+      "source": "docs/decisions.md",
+      "destination": "docs/reference/decisions.original.md",
+      "sha256": "7bef135b067c5863a14f05358485006d2d075beabdd90a2b95767ceebcab8b28"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "d8d2562a7cb68ffdfe91fc66af1ed4a8a4e272aa4ab59bea7451ba34b9aba3d4"
+    }
+  ]
+}

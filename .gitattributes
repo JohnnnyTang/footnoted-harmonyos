@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+# Preserve historical source bytes.
+docs/reference/*.original.md -text
+# The verbatim source license includes a final blank line.
+LICENSE whitespace=-blank-at-eof
