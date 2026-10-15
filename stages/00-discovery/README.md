@@ -8,6 +8,8 @@ Preserve the complete product foundation, then discover a native implementation 
 
 2026-10-13: product transfer prepared with a full charter, independent decisions, contributor rules, MPL-2.0, and verbatim handoff/decision archives. No app scaffold, dependencies, benchmark, build, signing, device verification, or remote publication is included.
 
+2026-10-15: `EXITED WITH CAVEATS`. Transfer acceptance (below) holds. Native discovery did not start here: steps 2–7 of "Next reproducible work", including the proof flow in step 6, move to [Stage 01 — Foundation](../01-foundation/README.md) under the stage → wave → session organisation (H-005). This section is the only status kept for Stage 00 from now on.
+
 ## Blockers that still bind
 
 Transfer has no outstanding owner question. Implementation needs a target HarmonyOS phone/OS, minimum-API policy, launch market, and verified DevEco toolchain. These do not prevent independent research. English-only launch remains inherited until changed by the owner.

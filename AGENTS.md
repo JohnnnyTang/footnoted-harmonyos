@@ -30,6 +30,12 @@
 - UI asks an entitlement abstraction, never purchase state. No launch paywall; never gate existing history or remove free features.
 - Signing keys, profiles, passwords, and personal data stay out of Git. Do not copy reference-repo credentials or local configuration.
 
+## How work is organised
+
+- Stage → wave → session (H-005). Conventions, IDs, branches and the device lease are in stages/README.md; templates in stages/TEMPLATE.md.
+- The orchestrator opens and closes waves with the `orchestrate-wave` skill and plans a stage with `plan-stage`. Session agents execute one brief each with `run-session`, in their own worktree. Every diff is checked with `invariant-review`.
+- Out of contract → stop and raise: a file outside the brief's "Owns", a seam change, or an undeclared dependency, permission or migration is recorded in the session note, never worked around.
+
 ## Work and verification
 
 - Declare scope and observable acceptance checks before implementation. Preserve unrelated work; do not edit the reference repo as part of this client's work.
@@ -45,5 +51,6 @@
 - docs/decisions.md: this client's decisions.
 - docs/TRANSFER.md: provenance and transfer audit.
 - docs/reference/: verbatim historical source documents.
-- stages/: work, blockers, and discovery briefs.
+- stages/: stage plans, wave briefs, session notes, backlogs, and discovery briefs.
+- .claude/skills/: process skills (plan-stage, orchestrate-wave, run-session, invariant-review).
 - LICENSE: MPL-2.0.

@@ -8,6 +8,7 @@ Append-only. Product changes require explicit owner decisions. Source D-### rows
 | H-002 | Transfer the complete product goal, provisions, and story. Rediscover technical design, evaluations, and implementation. No automatic adoption of z20, spans, rollups, MapLibre, SQLCipher, Drift, benchmarks, or milestone sequencing. | Owner, 2026-10-13 |
 | H-003 | Preserve all ten invariants, full feature scope, privacy/compliance, free launch, and no gating of history. PRODUCT.md is the active charter. | Handoff preserved under H-002 |
 | H-004 | Retain MPL-2.0, English-only launch with i18n readiness, 100 m local reveal adjustable from 25 m to 2 km, and endpoints-only transit pending later transit design. | Source D-001, D-005, D-018 preserved under H-002 |
+| H-005 | Organise work as stage → wave → session, with parallel sessions in disjoint file ownership, per `stages/README.md` and the skills in `.claude/skills/`. Only the process shape is taken from the reference project; none of its stage content, numbering, status, ownership, device passes or technical decisions. Stages follow the charter's horizon outcomes. Stage 00 closes as the transfer; native discovery and its proof flow become Stage 01 — Foundation, planned in full; Stages 02–06 hold threads only and are planned in detail after the previous stage exits. | Owner, 2026-10-15 |
 
 ## Proposed, not decided
 
